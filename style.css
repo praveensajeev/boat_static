@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Monoton&family=Open+Sans:wght@300&family=Roboto&family=Rubik+Mono+One&family=Train+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.annoncemenet{
+    width: 100%;
+    height: 30px;
+    background-color: #ff0f0f;
+    color: #ffffff;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 88px;
+    background-color: #000000;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+    margin-left: 70px;
+}
+.gift{
+    width: 20px;
+}
+.user{
+    width: 20px;
+}
+.cart{
+    width: 20px;
+}
+li a {
+   text-decoration: none;
+
+}
+.nav-line{
+    list-style: none;
+    color: #ffffff;
+    
+}
+.nav-line li{
+    display: inline-block;
+    padding: 20px 8px   ;
+    
+}
+.nav-line .bar{
+    color: #ff0f0f;
+}
+input{
+    padding: 9px 10px;
+    border-radius: 30px;
+   margin-right: 40px;
+    
+}
+.nav-scnd{
+    list-style: none;
+    
+}
+.nav-scnd li{
+    display: inline-block;
+    padding-right: 15px;
+    margin-top: 10px;
+}
+.collection{
+    width: 100%;
+    height: 90px;
+    color: #000000;
+    
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+}
+.collection p{
+    margin-top: 30px;
+}
+.demo{
+    display: flex;
+    margin-right: 120px;
+
+}
+.card1{
+    display: flex;
+    justify-content: space-evenly;
+
+    
+    width: 100%;
+   
+}
+.card1 div{
+    width: 100%;
+  
+}
+.r1{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    
+}
+.r2{
+    display: flex;
+    justify-content: center;
+   
+}
+.r3{
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+
+.card4{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.line{
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    color: white;
+    font-family: 'Bowlby One SC', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Train One', cursive;
+    font-size: 36px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.line-bar{
+    width: 100%;
+    height: 80px;
+    background-color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ship img{ 
+    width: 45px;
+}
+.Deals img{
+    width: 45px;
+}
+.Secure img{
+    width: 45px;
+}
+.third-bar{
+    width: 100%;
+    height: 80px;
+    background-color: #2c2c2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+}
+.third-bar p{
+    font-size: 13px;
+}
+.footer{
+    
+    width: 70%;
+    height: 460px;
+    margin: auto;
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer-col{
+    line-height: 30px;
+    margin-top: 50px;
+    width: 23%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    line-height: 40px;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    
+}
+.footer-col a{
+    
+    font-size: 15px;
+    color: #ffffff;
+}
+.footer-logo img{
+    margin-top: 50px;
+    width: 100px;
+}
+.footer-logo{
+    width: 30%;
+    
+}
+.shop{
+    width: 23%;
+    background-color: #ff0f0f;
+}
+
+
+.email{
+    padding: 4px 6px;
+    border-radius: 5px;
+    
+    margin-top: 8px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    border-color: #ffffff;
+   
+}
+.button1 {padding: 7px 24px;
+    margin-top: 10px;
+    position: absolute;
+    margin-right: 10px;
+    border-color: #ff0f0f;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #f81212;
+
+}
+.footer-logo p{
+    color: #ffffff;
+    margin-top: 30px;
+}
+.main-footer{
+    width: 100%;
+    height: 460px;
+    background-color: #000000;
+}
+.social-footer{
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+}
+.social-col{
+    width: 70%;
+    height: 100px;
+    background-color: #000000;
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+.social-col img{
+    margin-left: 265px;
+}
+.payment-footer{
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+}
+.payment{
+    width: 70%;
+    height: 40px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+}
+.payment-logo{
+   
+    margin-left: 265px;
+}
+.footer-con {
+    color: #ffff;
+    font-size: 13px;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.final-footer{
+    
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+.final-footer p{
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 12px;
+}
+.ship{
+    display: flex;
+    margin-right: 40px;
+   
+}
+.ship p{
+    padding-left: 15px;
+    line-height: 40px;
+}
+.Deals{
+    display: flex;
+    margin-right: 40px;
+   
+}
+.Deals p{
+    padding-left:15px ;
+    line-height: 40px;
+}
+.Secure{
+    display: flex;
+}
+.Secure p{
+    padding-left: 15px;
+    line-height: 40px;
+}
